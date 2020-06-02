@@ -1,0 +1,157 @@
+#page-create-point {
+    width: 90%;
+    max-width: 1100px;
+
+    /* Alinhamento de Caixa pelo lado de Fora  */
+    margin: 0 auto;
+}
+
+
+#page-create-point header {
+    margin: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#page-create-point a {
+    color: var(--title-color);
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+}
+
+#page-create-point a span{
+    margin-right: 16px;
+    background-image: url('../assets/arrow-left.svg');
+
+    display: flex;
+
+    width: 20px;
+    height: 24px;
+}
+
+
+
+form{
+        
+    background-color: white;
+
+    margin: 0 auto;
+    /* Distanciamento do topo */
+    margin-top: 80px;
+
+    /* Defini o tamanho da Caixa  */
+    padding: 64px;
+
+    /* Arredondamento da caixa */
+    border-radius: 8px;
+
+    /* Tamanho maximo da caixa */
+    max-width: 730px;
+
+}
+
+
+form h1{
+    font-size: 36px;    
+}
+
+
+form fieldset{
+    margin-top: 64px;
+    border: 0;
+}
+
+form legend{
+    margin-bottom: 40px;
+}
+
+form legend h2{
+    font-size: 24px;
+}
+
+form .field{
+    
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    margin-bottom: 24px;    
+
+
+}
+
+form .field-group-endereco {
+    display: flex;
+}
+
+form .field-group-estado-cidade {
+    display: flex;
+    
+}
+
+form input, form select{
+    background-color: #f0f0f5;
+    
+    border: 0;
+    padding: 16px 24px;
+    
+    font-size: 16px;
+
+    border-radius: 8px;
+
+    /* Deixará o input sem a borda ao clicar  */
+    /* outline: none; */
+}
+
+form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+form label {
+
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+form .field-group-endereco .field + .field {
+    margin-left: 24px;
+    flex-grow: 0;
+}
+
+form .field-group-estado-cidade .field + .field {
+    margin-left: 24px;
+    flex-grow: 2;
+}
+
+
+form button{
+    width: 260px;
+    height: 56px;
+    
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+    border: 0;
+
+    margin-top: 40px;
+
+    transition: backgroud-color 400ms;
+}
+
+
+form button:hover{
+    background-color: #2fb86e;
+}
+
+
